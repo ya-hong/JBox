@@ -1,11 +1,11 @@
 Type=Exe
-Form=Box.frm
-Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\..\Windows\System32\stdole2.tlb#OLE Automation
-IconForm="Box"
-Startup="Box"
-ExeName32="工程1.exe"
+Form=JBox.frm
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\Windows\System32\stdole2.tlb#OLE Automation
+IconForm="JBox"
+Startup="JBox"
+ExeName32="JBox.exe"
 Command32=""
-Name="工程1"
+Name="Box"
 HelpContextID="0"
 CompatibleMode="0"
 MajorVer=1

@@ -1,5 +1,5 @@
 VERSION 5.00
-Begin VB.Form Box 
+Begin VB.Form JBox 
    BackColor       =   &H00E0E0E0&
    Caption         =   "Form1"
    ClientHeight    =   6045
@@ -128,7 +128,7 @@ Begin VB.Form Box
       Width           =   3375
    End
 End
-Attribute VB_Name = "Box"
+Attribute VB_Name = "JBox"
 Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
@@ -215,7 +215,7 @@ Public Sub Main()
     MMM.Caption = "maxscore" & " : " & Str(mxscore)
     f = True
     r = 250: g = 250: b = 250
-    Box.BackColor = RGB(r, g, b)
+    JBox.BackColor = RGB(r, g, b)
     Randomize
     score = 0
     
@@ -311,7 +311,7 @@ Private Sub Timer1_Timer()
     If time Mod 20 = 0 And g >= 0 Then
         g = g - 1
         b = b - 1
-        Box.BackColor = RGB(r, g, b)
+        JBox.BackColor = RGB(r, g, b)
     End If
     If time = 100 And g >= 0 Then
         speed = speed + 10: time = 0
